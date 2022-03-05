@@ -1,0 +1,5 @@
+{"name":"crawl-log","hostname":"PingofDeath","pid":15540,"level":50,"module":"check-domains","message":"Majestic request error","domain":"domainToCheck.com","options":{},"msg":"","time":"2022-02-28T19:47:10.976Z","v":0}
+{"name":"crawl-log","hostname":"PingofDeath","pid":8116,"level":50,"module":"check-domains","message":"Majestic request error","domain":"domainToCheck.com","options":{},"msg":"","time":"2022-02-28T19:48:07.154Z","v":0}
+{"name":"crawl-log","hostname":"PingofDeath","pid":8116,"level":50,"module":"check-domains","message":"Error when checking domain","domain":"domainToCheck.com","options":{},"msg":"","time":"2022-02-28T19:48:07.155Z","v":0}
+{"name":"crawl-log","hostname":"PingofDeath","pid":8116,"level":50,"module":"check-domains","message":"Majestic request error","domain":"domainToCheck.com","options":{},"msg":"","time":"2022-02-28T19:48:19.597Z","v":0}
+{"name":"crawl-log","hostname":"PingofDeath","pid":8116,"level":50,"module":"check-domains","message":"Error when checking domain","domain":"domainToCheck.com","options":{},"msg":"","time":"2022-02-28T19:48:19.597Z","v":0}

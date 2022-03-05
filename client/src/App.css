@@ -1,0 +1,51 @@
+.navbar {
+  background-color: rgb(163, 113, 163);
+}
+h1 {
+  text-align: center;
+  margin: 100px !important;
+  color: purple;
+}
+
+.tools {
+  display: flex;
+  grid-gap: 30px;
+  /* background-color: palegoldenrod; */
+  align-items: center;
+  justify-content: center;
+}
+
+.octagon {
+  transform: rotate(-45deg);
+  overflow: hidden;
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 5px;
+}
+.inner {
+  border-radius: 5px;
+
+  transform: rotate(45deg);
+  background: rgb(231, 228, 221);
+  width: 20vmin;
+  height: 20vmin;
+  font: 2vmin/ 20vmin trebuchet ms, verdana, sans-serif;
+  text-align: center;
+}
+.inner:hover {
+  background-color: rgb(163, 113, 163);
+}
+.octagon a {
+  color: unset !important;
+  text-decoration: none !important;
+}
+.octagon a:hover {
+  color: white !important;
+}
+.fa-earth-asia {
+  z-index: 9999;
+}
+.table {
+  width: 80% !important;
+  margin: 0 auto !important;
+}

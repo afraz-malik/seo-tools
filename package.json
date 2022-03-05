@@ -1,0 +1,47 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server.js",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afraz-malik/user-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afraz-malik/user-api/issues"
+  },
+  "homepage": "https://github.com/afraz-malik/user-api#readme",
+  "dependencies": {
+    "@settlin/collage": "^2.0.1",
+    "@supercharge/filesystem": "^2.3.0",
+    "bcryptjs": "^2.4.3",
+    "check-domain": "^1.1.8",
+    "colors": "^1.4.0",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "ffmpeg": "^0.0.4",
+    "filestack-js": "^3.25.0",
+    "grid-maker": "^0.1.8",
+    "jsonwebtoken": "^8.5.1",
+    "media-converter": "^1.1.7",
+    "mongoose": "^6.0.11",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.14",
+    "path": "^0.12.7",
+    "printscreen": "^1.2.1",
+    "sass": "^1.49.9",
+    "videoshow": "^0.1.12",
+    "whois-json": "^2.0.4"
+  }
+}
