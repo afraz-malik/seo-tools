@@ -1,0 +1,53 @@
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1A1A40;
+}
+
+.imgInput{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+
+.opacityZero{
+    opacity: 0;
+    display: none;
+}
+
+.Button{
+    background-color: #FA58B6;
+    padding: 10px 50px;
+    color:white;
+    border-radius: 50px;
+    margin: 20px auto;
+    border: none;
+    display: block;
+}
+
+
+
+.outputImg{
+    margin: 20px auto !important;
+    /* border: 2px solid red; */
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.text{
+    color: white;
+   
+}
+
+a{
+    text-decoration: none;
+}

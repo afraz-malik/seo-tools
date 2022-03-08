@@ -7,6 +7,10 @@ import ImagesToSlider from '../pages/imagesToVideo/imagesToSlides'
 import ShotScreen from '../pages/shotScreen/shotScreen'
 import VideoCompressPage from '../pages/videoCompress/videoCompress'
 import WebAgeChecker from '../pages/webAgeChecker/webAgeChecker'
+import BGRemover from "../pages/bgRemover/BGRemover.js"
+import QuoteGenerator from "../pages/quoteGenerator/QuoteGenerator.js"
+import DAChecker from "../pages/DAChecker/DAChecker.js"
+import VideoAudio from "../pages/VideoAudio/VideoAudio.js"
 // import Particles from 'react-particles-js'
 
 // const ParticleOption = {
@@ -45,6 +49,26 @@ export const routeKeys = [
     path: '/images-slide',
     component: <ImagesToSlider />,
   },
+  {
+    path: '/bg-remover',
+    component: <BGRemover/>
+  },
+  {
+    path: '/quotegen',
+    component: <QuoteGenerator/>
+  },
+  {
+    path: '/dachecker',
+    component: <DAChecker/>
+  },
+
+  {
+    path: '/vtoa',
+    component: <VideoAudio/>
+  }
+
+
+
 ]
 
 const AppRoutes = () => {

@@ -27,6 +27,21 @@ const tools = [
     name: 'Images to SlideShow',
     path: '/images-slide',
   },
+  {
+    id: 6,
+    name: 'Background Remover',
+    path: '/bg-remover',
+  },
+  {
+    id: 7,
+    name: 'Quote Generator',
+    path: '/quotegen',
+  },
+  {
+    id: 8,
+    name: 'Domain Authority',
+    path: '/dachecker',
+  },
 ]
 const HomePage = () => {
   return (

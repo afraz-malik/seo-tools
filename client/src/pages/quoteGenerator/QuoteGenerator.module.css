@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    padding-top: 10vh;
+}
+
+.QuoteContainer{
+    /* border: 2px solid red; */
+    
+    background-color: #1A1A40;
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border-radius: 20px;
+    color:white
+
+}
+
+.ButtonContainer{
+    text-align: center;
+}
+
+.Button{
+    background-color: #FA58B6 ;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 22px;
+    color: white;
+    margin-left: 20px;
+}

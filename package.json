@@ -40,6 +40,7 @@
     "nodemon": "^2.0.14",
     "path": "^0.12.7",
     "printscreen": "^1.2.1",
+    "react-scripts": "^5.0.0",
     "sass": "^1.49.9",
     "videoshow": "^0.1.12",
     "whois-json": "^2.0.4"
